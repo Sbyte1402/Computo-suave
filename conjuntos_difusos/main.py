@@ -83,8 +83,9 @@ S = [[1, 0, 0],
 
 resultado_max_min = composicion_max_min(R, S)
 print("=== Resultado de Composición Max-Min (R o S) ===")
+print("Matriz R:\n", np.array(R))
+print("Matriz S:\n", np.array(S))
 print(resultado_max_min)
-print("Nota: Como R es una matriz identidad, el resultado es igual a S.\n")
 
 
 # ==========================================
@@ -110,8 +111,8 @@ R = [[1, 0],
 S = [[1, 0, 0], 
      [1, 0, 1]]
 
-resultado_max_min = composicion_max_min(R, S)
-print("=== Resultado de Composición Max-Min (R o S) ===")
+resultado_max_producto = composicion_max_producto(R, S)
+print("=== Resultado de Composición Max-Producto (R o S) ===")
 print("Matriz R:\n", np.array(R))
 print("Matriz S:\n", np.array(S))
-print(resultado_max_min)
+print(resultado_max_producto)
